@@ -11,7 +11,7 @@
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["GarminMCP"] }],
   // replace id after: npx wrangler kv namespace create OAUTH_KV
   "kv_namespaces": [
-    { "binding": "OAUTH_KV", "id": "3b6609f917ba416fae369ce05853de04" },
+    { "binding": "OAUTH_KV", "id": "de04c8c281c04b07b9f421aa58d704e3" },
   ],
   // OWNER_GARMIN_IDS is a secret, not a committed var:
   //   npx wrangler secret put OWNER_GARMIN_IDS   (your get_user_profile displayName)
